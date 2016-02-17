@@ -1,0 +1,170 @@
+html {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.fon {
+	background: url(../img/jpg1.jpg);
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.block {
+	background: white;
+	margin-left: 13.4%;
+	margin-right: 12.5%;
+	height: 95%;
+	font-family: 'Tahoma Regular';
+	border-bottom: 2px solid #031d28;
+	box-shadow: 0 0 30px #031d28;
+}
+
+/*HEADER*/
+
+.logo {
+	float: left;
+	margin-top: 4.8%;
+	margin-left: 3%;
+}
+.header {
+	padding-top: 1px;
+}
+.header:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.header p {
+	float: right;
+	margin-top: 4.9%;
+	margin-right: 3%;
+	font-size: 12pt;
+	color: #5fa5bb;
+}
+.header p:first-line {
+	font-weight: 800;
+	line-height: 1.5;
+}
+.link {
+	margin-left: 40%;
+	margin-top: 14%;
+}
+.link li {
+	float: left;
+	margin-right: 2%;
+	font-size: 10pt;
+	list-style: none;
+	text-align: center;
+}
+.link li a {
+	display: block;
+	color: #5fa5bb;
+}
+.link li a span {
+	display: block;
+}
+.link li a:visited {
+	text-decoration: none;
+}
+.link li a:active {
+	text-decoration: none;
+}
+.menu {
+	background: #343434;
+	width: 96%;
+	float: left;
+	margin-top: -0.5%;
+	margin-bottom: -0.5%;
+	border-bottom: 1px solid black;
+}
+.menu a {
+	color: white;
+	text-decoration: none;
+}
+.menu ul {
+	padding: 0;
+	margin: 0;
+}
+.menu li {
+	list-style: none;
+	width: 13%;
+	margin: 0 auto;
+	float: left;
+	padding: 0.5% 0.5% 0.6% 0.5%;
+}
+.triangle:after {
+	content: "";
+	position: absolute;
+	border: 3px solid transparent;
+	border-top: 6px solid white;
+	margin-left: 0.5%;
+	margin-top: 0.5%;
+}
+.menu li ul {
+	position: absolute;
+	display: none;
+}
+.menu li ul li {
+	float: none;
+	display: inline;
+	width: 130px;
+	line-height: 25px;
+}
+.menu li:hover ul {
+	display: block;
+}
+.menu li ul li {
+	display: block;
+	background: #343434;
+}
+
+/*CONTENT*/
+
+.content {
+	width: 100%;
+	margin-top: 0.5%;
+	overflow: hidden;
+}
+.content h3 {
+	text-align: center;
+	line-height: 10%;
+	color: #424c43;
+}
+.content p {
+	padding-left: 10%;
+	line-height: 60%;
+	color: #424c43;
+}
+.leftColumn {
+	width: 25%;
+	float: left;
+	background: #edeef0;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+.centerColumn {
+	width: 50%;
+	float: left;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+.rightColumn {
+	width: 25%;
+	float: right;
+	background: #edeef0;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+
+/*FOOTER*/
+
+.footer p {
+	color: white;
+	text-align: center;
+}
+
+
