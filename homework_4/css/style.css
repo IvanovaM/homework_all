@@ -4,10 +4,6 @@ html {
 	position: relative;
 }
 body {
-	margin: 0;
-	padding: 0;
-}
-.fon {
 	background: url(../img/jpg1.jpg);
 	height: 100%;
 	margin: 0;
@@ -27,7 +23,7 @@ body {
 
 .logo {
 	float: left;
-	margin-top: 4.8%;
+	margin-top: 48px;
 	margin-left: 3%;
 }
 .header {
