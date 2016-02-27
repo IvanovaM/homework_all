@@ -77,9 +77,6 @@ a:hover {
 }
 #menu a:hover{
 	color: #fff;
-}
-#menu .active a {
-	color: #fff;
 	background: #4eabda;
 }
 #content {
