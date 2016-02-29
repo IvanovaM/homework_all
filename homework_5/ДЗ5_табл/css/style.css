@@ -1,0 +1,63 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+	border: 20px solid white;
+}
+.line1 {
+	height: 50px;
+}
+.line2 {
+	height: 150px;
+}
+.line3 {
+	height: 150px;
+}
+.line4 {
+	height: 75px;
+}
+.line5 {
+	height: 75px;
+}
+.line6 {
+	height: 50px;
+}
+.line7 {
+	height: 50px;
+}
+.col1 {
+	width: 60px;
+}
+.col2 {
+	width: 75px;
+}
+.col3 {
+	width: 75px;
+}
+.col4 {
+	width: 120px;
+}
+.col5 {
+	width: 80px;
+}
+.col6 {
+	width: 80px;
+}
+td {
+	border: 10px solid black;	
+}
+.yellow {
+	background-image: url(../img/yellow.jpg);
+}
+.red {
+	background-image: url(../img/red.jpg);
+}
+.black {
+	background-image: url(../img/black.jpg);
+}
+.blue {
+	background-image: url(../img/blue.jpg);
+}
