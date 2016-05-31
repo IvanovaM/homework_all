@@ -1,0 +1,53 @@
+.wrapper {
+	background-image: url(../img/bd.jpg);
+}
+.header {
+	height: 830px;
+}
+.menu__item {
+	display: inline;
+}
+.sub-header {
+	background: none;
+	height: 340px;
+}
+.sub-header__container {
+	padding-top: 0px;
+	}
+.sub-header__item1, .sub-header__item2, .sub-header__item3 {
+	margin-top: -30px;
+}
+.sub-header__wrench, .sub-header__chat, .sub-header__note {
+	top: -20px;
+}
+.about {
+	height: 607px;
+}
+.about__container {
+	padding-top: 10px;
+}
+.about-brands {
+	margin-top: 180px;
+}
+.description {
+	height: 295px;
+}
+.description__container {
+	padding-top: 20px;
+}
+.footer {
+	background: none;
+	height: 120px;
+}
+.footer__container {
+	height: 120px;
+	position: relative;
+}
+.footer__p {
+	color: white;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    position: absolute;
+    left: 800px;
+    top: 55px;
+}
